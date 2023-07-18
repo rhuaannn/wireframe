@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+}
+/*redefinindo a tag img para se tornar responsivo.
+  max-width 100% para pegar toda largura disponivel
+  e display block para deixar responsivo.
+*/
+img{
+  max-width: 100%;
+  display: block;
+}
+html{
+  font-size: 62.5%;
+}
+button{
+  cursor: pointer;
+  background-color: transparent;
+}
