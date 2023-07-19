@@ -23,3 +23,9 @@ button{
   cursor: pointer;
   background-color: transparent;
 }
+.container{
+  width: 100%;
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
