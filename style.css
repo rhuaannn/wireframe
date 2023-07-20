@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   border: none;
@@ -6,26 +6,76 @@
   text-decoration: none;
   box-sizing: border-box;
   font-size: 1.6rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 /*redefinindo a tag img para se tornar responsivo.
   max-width 100% para pegar toda largura disponivel
   e display block para deixar responsivo.
 */
-img{
+img {
   max-width: 100%;
   display: block;
 }
-html{
+html {
   font-size: 62.5%;
 }
-button{
+button {
   cursor: pointer;
   background-color: transparent;
 }
-.container{
+header {
+  display: flex;
+  background-color: var(--gray-color-800);
   width: 100%;
-  max-width: 1246px;
-  margin: 0 auto;
+
+  max-width: 144rem;
+}
+.container {
+  display: flex;
+  width: 100%;
+  margin: 2.4rem;
   padding: 0px 15px;
+}
+.container img {
+  margin-right: 24.8rem;
+  margin-left: 11.2rem;
+}
+.container nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.container nav ul {
+  display: flex;
+  width: 100%; 
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+.container nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 128px;
+  height: 40px;
+  background-color: #e6ebf2;
+  color: #5c6066;
+  font-size: 15px; 
+  letter-spacing: -0.15px;
+}
+.container a {
+  display: flex;
+  align-items: center;
+  background-color: var(--brand-color-pink);
+  margin: 12px 34px;
+  height: 4rem;
+  font-weight: 600;
+  width: 100%;
+  max-width: 17.6rem;
+  justify-content: center;
+  align-items: center;
 }
