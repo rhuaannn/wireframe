@@ -27,30 +27,28 @@ header {
   display: flex;
   background-color: var(--gray-color-800);
   width: 100%;
-
   max-width: 144rem;
 }
 .container {
   display: flex;
   width: 100%;
-  margin: 2.4rem;
-  padding: 0px 15px;
-}
-.container img {
-  margin-right: 24.8rem;
+  padding: 2.4rem;
   margin-left: 11.2rem;
+  max-width: 144rem;
 }
+
 .container nav {
   display: flex;
   width: 100%;
+  max-width: 144rem;
   justify-content: center;
-
   align-items: center;
 }
 
 .container nav ul {
   display: flex;
-  width: 100%; 
+  width: 100%;
+  max-width: 144rem;
   justify-content: center;
   align-items: center;
   gap: 3.2rem;
@@ -60,22 +58,121 @@ header {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  width: 128px;
+  width: 12.8rem;
   height: 40px;
+  padding: 2.4rem;
   background-color: #e6ebf2;
-  color: #5c6066;
-  font-size: 15px; 
+  color: var(-gray-color-400);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Sora", sans-serif;
   letter-spacing: -0.15px;
 }
 .container a {
   display: flex;
   align-items: center;
   background-color: var(--brand-color-pink);
-  margin: 12px 34px;
-  height: 4rem;
-  font-weight: 600;
+  height: 4.5rem;
+  padding: 1.2rem 3.5rem;
   width: 100%;
-  max-width: 17.6rem;
+  max-width: 18.6rem;
   justify-content: center;
   align-items: center;
+}
+/*SECTION HERO*/
+.s-hero {
+  display: flex;
+  width: 100%;
+  max-width: 144rem;
+}
+.s-hero .container {
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 144rem;
+  margin-left: 11.2rem;
+  padding-top: 15.4rem;
+  display: flex;
+  width: 64rem;
+  flex-direction: column;
+}
+.s-hero .container p {
+  width: 100%;
+  max-width: 48rem;
+  margin-top: 1.2rem;
+}
+.s-hero .container a {
+  margin-top: 5.6rem;
+  background-color: var(--brand-color-pink);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15.3rem;
+  width: var(--gray-color-100);
+  color: black;
+  max-width: 30.5rem;
+}
+/* SECTION MAIN */
+.s-main {
+  display: flex;
+  width: 100%;
+  max-width: 144rem;
+  background-color: var(--gray-color-100);
+}
+.s-main .container {
+  display: flex;
+  width: 100%;
+  max-width: 144rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.s-main .container h2 {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 10.4rem;
+  line-height: 150%;
+}
+.s-main .container p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Sora";
+  font-size: 1.6rem;
+}
+.s-main .card img {
+  width: 4rem;
+  display: flex;
+  margin-bottom: 4rem;
+}
+.s-main .s-card {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4.8rem;
+  justify-content: space-between;
+  opacity: 0.9;
+}
+.s-main .s-card .card {
+  display: flex;
+  width: 100%;
+  max-width: 38.4rem;
+  height: 38.2rem;
+  background-color: var(--gray-color-200);
+  height: 38.2rem;
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.s-main .s-card .card p{
+  padding-top: 0.8rem;
+}
+.s-main .s-card .card:hover{
+  opacity: 0.5;
+}
+.s-main .s-card .white {
+  background-color: #fff;
+  color: var(--gray-color-100);
 }
