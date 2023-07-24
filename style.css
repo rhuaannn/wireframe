@@ -84,6 +84,7 @@ header {
   display: flex;
   width: 100%;
   max-width: 144rem;
+  
 }
 .s-hero .container {
   flex-wrap: wrap;
@@ -116,6 +117,7 @@ header {
   width: 100%;
   max-width: 144rem;
   background-color: var(--gray-color-100);
+ 
 }
 .s-main .container {
   display: flex;
@@ -124,6 +126,7 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+   
 }
 .s-main .container h2 {
   color: rgba(255, 255, 255, 0.7);
@@ -176,3 +179,43 @@ header {
   background-color: #fff;
   color: var(--gray-color-100);
 }
+.s-main .s-card{
+  padding-bottom: 10.6875rem;
+  border-bottom: 2px solid white;
+}
+.card-mini{
+  display: flex;
+  width: 100%;
+  max-width: 144rem;
+  padding-top: 7rem;
+  color: #fff;
+  background-color: var(--gray-color-100);
+}
+.card-mini .container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card-mini .container .h1P h2{
+  color: white;
+  display: flex;
+  width: 100%;
+  font-size: 29px;
+  margin-bottom: 15px;
+
+}
+.card-mini .container .text-btn{
+  display: flex;
+
+  width: 100%;
+  justify-content: space-between;
+}
+ 
+ .card-mini .container .card-secundary{
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-top: 15rem;
+ }
